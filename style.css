@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    background-color: #dadada;
+}
+
+.lvl1 {
+    background-color: #2c2c2c;
+}
+
+.lvl2 {
+    background-color: #4e4e4e;
+}
+
+.lvl3 {
+    background-color: #868686;
+}
+
+.lvl4 {
+    background-color: #a7a7a7;
+}
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+nav {
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+}
+
+#latest {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 60rem;
+}
+
+#dont-miss-1,
+#dont-miss-2 {
+    position: absolute;
+    left: 37.5%;
+
+    width: 25%;
+    height: 5rem;
+
+
+}
+
+#dont-miss-1 {
+    top: 3rem;
+}
+
+#dont-miss-2 {
+    top: 8rem;
+    width: 8%;
+    left: 46%;
+}
+
+.featured {
+    width: 80%;
+}
+
+.headshot,
+.author {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headshot {
+    height: 5rem;
+    width: 5rem;
+    transform: rotate(-20deg);
+    margin: 1rem;
+
+}
+
+.author {
+    height: 2rem;
+    width: 70%;
+    text-align: center;
+}
+
+.feat-title {
+    height: 20rem;
+}
+
+#articles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 40rem;
+}
+
+.article {
+
+}
+
+.big {
+    grid-column: span 2;
+}
+
+.advert {
+    width: 80%;
+    height: 50%;
+    margin-top: 10rem;
+    justify-self: center;
+}
+
+#just-released {
+    height: 70rem;
+    padding-top: 5rem;
+}
+
+.title,
+.text,
+.button,
+.book {
+    margin: 0 auto 3rem auto;
+}
+
+.title {
+    width: 40rem;
+    height: 7rem;
+}
+
+.text {
+    width: 50rem;
+    height: 5rem;
+}
+
+.button {
+    width: 30rem;
+    height: 4rem;
+}
+
+.book {
+    width: 20rem;
+    height: 26rem;
+}
+
+#community {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 20rem;
+}
+
+#potw {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+}
+
+#potw-headshot {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5rem;
+    transform: rotate(-20deg);
+}
+
+.com-item {
+    padding-top: 1rem;
+}
+
+.com-headshot {
+    position: absolute;
+
+    height: 5rem;
+    width: 5rem;
+    transform: rotate(-20deg);
+    margin: 1rem;
+}
+
+.com-title {
+    width: 60%;
+    height: 5rem;
+    margin: 0 0 1rem 15%;
+}
+
+.com-text {
+    width: 75%;
+    height: 10rem;
+    margin-left: 15%;
+}
+
+#featured-book {
+    position: relative;
+
+    height: 25rem;
+    padding: 3rem 5rem;
+    margin-top: 10rem;
+
+    border: 1px solid black;
+}
+
+#feat-title,
+#feat-text,
+#feat-button {
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+#feat-title {
+    width: 20rem;
+}
+
+#feat-text {
+    width: 60rem;
+}
+
+#feat-button {
+    width: 18rem;
+}
+
+#book-graphic {
+    position: absolute;
+    top: -2rem;
+    right: 5rem;
+    height: 24rem;
+    width: 16rem;
+
+    transform: rotate(-15deg);
+}
+
+
+#curated {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 40rem;
+    margin-top: 5rem;
+}
+
+.col {
+    padding: 1rem;
+}
+
+
+.col-title {
+    width: 80%;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.col-content {
+    width: 60%;
+    margin-left: 10%;
+    height: 20rem;
+}
+
+#newsletter {
+    height: 60rem;
+}
+
+#news-title,
+#circle,
+#cta {
+    width: 33rem;
+    margin: 3rem auto;
+}
+
+#news-title {
+    height: 15rem;
+}
+
+#circle {
+    height: 33rem;
+    border-radius: 100%;
+}
+
+#cta {
+    height: 5rem;
+}
+
+footer {
+    height: 40rem;
+
+}
