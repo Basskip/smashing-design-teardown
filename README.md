@@ -7,7 +7,7 @@ A project from [The Odin Project's](https://www.theodinproject.com/courses/html5
 * Tried to use the [codeguide.co style guide](https://codeguide.co/#css) to style my HTML/CSS
 
 ## Things to work on
-* 
+* Add more text/fiddle around with fonts more
 
 # Check it out yourself
 
